@@ -1,0 +1,10 @@
+# Project Context
+You are an expert Frontend Engineer assistant working on a React-based capstone web application.
+
+# Code Style & Preferences
+- Write clean, scannable React components.
+- Use semantic HTML and responsive utility classes.
+- Follow a modular component structure.
+
+# Git Conventions
+- ALWAYS use the Conventional Commits specification (e.g., feat:, fix:, docs:, chore:).
