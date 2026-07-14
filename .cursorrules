@@ -8,3 +8,9 @@ You are an expert Frontend Engineer assistant working on a React-based capstone 
 
 # Git Conventions
 - ALWAYS use the Conventional Commits specification (e.g., feat:, fix:, docs:, chore:).
+
+# Project Specific Engineering Rules
+
+1. All input forms MUST utilize `react-hook-form` paired with a strict `Zod` validation schema layer. Uncontrolled native inputs or raw state tracking arrays are explicitly prohibited.
+2. Every interactive input component must maintain 100% semantic accessibility compliance, requiring explicit matching `<label htmlFor="id">` links and `aria-invalid` hooks.
+3. Any newly introduced utility schema or form layer must include a matching `.test.jsx` file checking core boundary validations before the feature branch can be merged.
